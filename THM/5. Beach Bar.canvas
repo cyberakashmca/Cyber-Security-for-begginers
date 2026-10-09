@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"d0312e71500557dd","type":"text","text":"# Beach Bar","x":-540,"y":70,"width":250,"height":60},
+		{"id":"0cddff6359aeced9","type":"file","file":"THM/screenshots/beach_port_scan.png","x":-40,"y":56,"width":398,"height":74}
+	],
+	"edges":[
+		{"id":"4514994bf5f11eec","fromNode":"d0312e71500557dd","fromSide":"right","toNode":"0cddff6359aeced9","toSide":"left"}
+	]
+}

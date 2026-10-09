@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"c192c3b99667060d","type":"text","text":"##### Footprinting Through Search Engine","x":-1598,"y":-59,"width":338,"height":60},
+		{"id":"c5265d7d45c51f14","type":"text","text":"Basics","x":-1072,"y":-60,"width":94,"height":60},
+		{"id":"353d15ee3b97f3db","type":"text","text":"```\nWhois\nDarkSearch.com\n```","x":-1150,"y":322,"width":250,"height":120},
+		{"id":"6a1c21e645c51679","type":"text","text":"```\nLinkden\nFacebook/Instagram\nGithub/GitLab\nTwitter/Reddit\n```","x":-1642,"y":101,"width":250,"height":161},
+		{"id":"8883bc13e5cd41d1","type":"text","text":"```\nwhois\nnslookup\ndnsdumpster\n```","x":-1498,"y":322,"width":250,"height":140},
+		{"id":"1bac85dec59e8a9d","type":"text","text":"```\ntheHarvester\n```","x":-1153,"y":-298,"width":250,"height":85},
+		{"id":"e9539980769635a6","type":"text","text":"```\nExiftool\nFoca\n```","x":-1598,"y":-338,"width":250,"height":113},
+		{"id":"4bbe5ad3448df0ca","type":"text","text":"`() : Grouping Operator -> Multiple condition ko group karane ke liye`\n```\n(site: github.com OR site: google.com) python\ninurl : (html | php)\niphone (14|15) discount\n```\n\n`* : wildword -> Missing word ko represent karata hai `\n```\nEx -> python * tutorial\n\t  python socket tutorial\n\t  python networking tutorial\n\t  python programming tutorial\n```\n\n`\" \" -> Exact Match : mtlb word to word search`\n```\n\"Python tutorial 2025\"\n\"Python tutorial 2026\"\n\"Hacking Pdf 2026\"\n```\n\n`m..n (Number Range)`\n```\nBest Laptop 40000..70000 INR\nWorld cup winner 1990..2010\n```\n\n`- (Excluds)`\n```\nJo Word result mai nahi chahiye aage minus laga do\nrecepie -nonveg\njobs -sales\n```\n\n`| ya OR (Logical OR)`\n```\nKisi multiple qry mai kisi 1 ko dudna hai \n\"google\" | \"Yahoo\"\nandorid OR iso tutorial\n```\n\n`index of : website k server ki direct file dictionary kholata h`\n```\nindex of : MP4 VIDEO\nindex of : python books\n```\n\n`@ : social media search`\n```\n@instagram virat kohali\n@github akprajapti\n```\n\n`related : similar website dikhata h`\n```\nrelated : wikipedia.org\nrelated : stackoverflow\n```\n`source : google news m use hota h`\n```\nsite : bbc.com\nsource : bbc.com\n```","x":202,"y":-771,"width":640,"height":1543},
+		{"id":"2f14032d025cc1a1","type":"text","text":"`intitle      : Words heading mai hone chahiye`\n```\nEx -> crypto news => crypto title m hoga or new page m kahi bhi\n```\n`allintitile : Sare words heading mai hone chahiye `\n```\nEx -> crypto news => yaha dono words heading m hi hone chahiye\n```\n`inurl : website ki link m url dudenga`\n```\ninurl : contect us\nallinurl : search google com\n```\n`intext : Heading ya url ko chhod kar , website ke page par words dundtaa hai`\n`allintext: same as it is ye bhi`\n```\nintext : breaking news\nallintext: math science university\n```\n\n`Date : After & Before`\n```\nchatgpt update after:2024\niphone bunch before : 2019-04-03\n```\n\n`AROUND(n) : 2 word 1 dusare ke n numbers ke aas pas ho jyada dur na ho`\n```\nAROUND(10) GOD\n```\n\n`site : website ke andar se result nikal kar deta h`\n```\nsite : youtube.com tech review\nsite : gov.in scholarship\n```\n\n`filetype : , ext : -> dono bilkul same hai file format ke liye`\n```\nai report filetype:pdf\nai report ext:pdf\n```\n`define : kisi bhi word ka direct dictionary word dikhata h`\n```\ndefine : funny\ndefine : blockchain\n```\n`stock : kisi bhi company ke share price or graph live dikhata h`\n```\nstock : apple\nstock : tata motors\n```","x":942,"y":-681,"width":700,"height":1363},
+		{"id":"f0068cfd219588a4","type":"text","text":"```\nShodan.io\nCensys.io\n```","x":-705,"y":-338,"width":250,"height":116},
+		{"id":"8c4e1f419a5ea9a4","type":"text","text":"```\nPhishing \nSpear Phising\nwhaling\nPharming\nEavesdropping\nTailgating\nBaiting\nShoulder Surfing\nDumpster Diving\n\n```","x":-644,"y":85,"width":250,"height":307}
+	],
+	"edges":[
+		{"id":"c82d8a861471668f","fromNode":"c192c3b99667060d","fromSide":"right","toNode":"c5265d7d45c51f14","toSide":"left"},
+		{"id":"d4edfc493ba20013","fromNode":"c5265d7d45c51f14","fromSide":"right","toNode":"4bbe5ad3448df0ca","toSide":"left","label":"google db"},
+		{"id":"25d08b14ff1ef1d0","fromNode":"c5265d7d45c51f14","fromSide":"bottom","toNode":"353d15ee3b97f3db","toSide":"top","label":"Search Engine"},
+		{"id":"fca6a9985b0d4a24","fromNode":"c5265d7d45c51f14","fromSide":"bottom","toNode":"8883bc13e5cd41d1","toSide":"top","label":"cli"},
+		{"id":"d7b727b69be0fb5e","fromNode":"c5265d7d45c51f14","fromSide":"bottom","toNode":"6a1c21e645c51679","toSide":"top","label":"Social Media"},
+		{"id":"4ff3722463f3518b","fromNode":"c5265d7d45c51f14","fromSide":"top","toNode":"1bac85dec59e8a9d","toSide":"bottom","label":"Email harvesting"},
+		{"id":"35af1be998b29ccd","fromNode":"c5265d7d45c51f14","fromSide":"top","toNode":"e9539980769635a6","toSide":"bottom","label":"Metadata extraction"},
+		{"id":"36bd619f1486c912","fromNode":"c5265d7d45c51f14","fromSide":"right","toNode":"f0068cfd219588a4","toSide":"left"},
+		{"id":"58b09bdab286321e","fromNode":"c5265d7d45c51f14","fromSide":"right","toNode":"8c4e1f419a5ea9a4","toSide":"left","label":"social eng"},
+		{"id":"b49a433bc5edb86c","fromNode":"4bbe5ad3448df0ca","fromSide":"right","toNode":"2f14032d025cc1a1","toSide":"left"}
+	]
+}

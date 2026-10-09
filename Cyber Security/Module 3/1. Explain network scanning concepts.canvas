@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"ed4bee28bac21731","type":"text","text":"# MODULE 3","x":-404,"y":-226,"width":200,"height":60},
+		{"id":"49540ab0d087fb61","type":"text","text":"Explain network scanning concepts","x":-88,"y":-226,"width":296,"height":60},
+		{"id":"358c047cdfce028d","type":"text","text":"Network scanning refers to a set of procedures used for `identifying host` `port` and `services` in a network","x":312,"y":-226,"width":437,"height":60},
+		{"id":"1cb5863d878b8b5d","type":"file","file":"Cyber Security/Resources/Pasted image 20260721193204.png","x":331,"y":-75,"width":400,"height":141},
+		{"id":"06a1d2518649c0c6","type":"text","text":"SCANNING","x":969,"y":-226,"width":121,"height":60},
+		{"id":"aee19dcb959bd5f2","type":"text","text":"Network Scanning","x":1225,"y":-226,"width":250,"height":60},
+		{"id":"29a613121f19b601","type":"text","text":"Port Scanning","x":1225,"y":-315,"width":250,"height":60},
+		{"id":"926cbfeeda9c1a99","type":"text","text":"Vulnerability Scanning","x":1225,"y":-135,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"f318779b74505e17","fromNode":"ed4bee28bac21731","fromSide":"right","toNode":"49540ab0d087fb61","toSide":"left"},
+		{"id":"fd5317ce2d25274b","fromNode":"49540ab0d087fb61","fromSide":"right","toNode":"358c047cdfce028d","toSide":"left"},
+		{"id":"f359fd323948b804","fromNode":"1cb5863d878b8b5d","fromSide":"top","toNode":"358c047cdfce028d","toSide":"bottom"},
+		{"id":"d26d9ccfcf104c42","fromNode":"358c047cdfce028d","fromSide":"right","toNode":"06a1d2518649c0c6","toSide":"left"},
+		{"id":"870d7a0f8ee35cc2","fromNode":"06a1d2518649c0c6","fromSide":"right","toNode":"aee19dcb959bd5f2","toSide":"left"},
+		{"id":"6b4e38804448a94f","fromNode":"06a1d2518649c0c6","fromSide":"right","toNode":"29a613121f19b601","toSide":"left"},
+		{"id":"f956fa7fe942f5a8","fromNode":"06a1d2518649c0c6","fromSide":"right","toNode":"926cbfeeda9c1a99","toSide":"left"}
+	]
+}

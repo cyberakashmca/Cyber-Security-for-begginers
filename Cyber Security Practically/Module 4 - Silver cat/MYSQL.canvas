@@ -1,0 +1,29 @@
+{
+	"nodes":[
+		{"id":"5aa35d2673475364","type":"text","text":"# MYSQL/MSSQL","x":-505,"y":40,"width":250,"height":60},
+		{"id":"c471fdf3a323487a","type":"text","text":"### SQL","x":-505,"y":-120,"width":250,"height":60},
+		{"id":"453a76e96e8baf73","type":"text","text":"# MYSQL","x":-30,"y":-159,"width":250,"height":60},
+		{"id":"b977b32f317777d0","type":"text","text":"# MSSQL","x":-30,"y":220,"width":250,"height":60},
+		{"id":"12c4adcdd71359c6","type":"text","text":"> Windows","x":-30,"y":100,"width":250,"height":60},
+		{"id":"19e6aa37ddf1e4f0","type":"text","text":"> Run with xampp","x":-30,"y":-300,"width":250,"height":60},
+		{"id":"1b451a3f42e405a5","type":"text","text":"> Port 3306 TCP","x":280,"y":-159,"width":250,"height":60},
+		{"id":"f9724bedef529c95","type":"text","text":"Local Login (Default Root User)\n```\nmysql -u root -p\n```\n\nLog in Directly to a Specific Database\n```\nmysql -u root -p database_name\n```\n\nRemote Server Login\n```\nmysql -u username -p -h 192.168.1.100 -P 3306\n```\n\nBasic MySQL Quick-Start Commands\n- **`SHOW DATABASES;`** - Lists all databases available to your user account.\n- **`USE database_name;`** - Selects a database to start working with it.\n- **`SHOW TABLES;`** - Lists all the tables inside your selected database.\n- **`EXIT;`** or **`QUIT;`** - Safely disconnects you from the MySQL server\n\n```\nmysql -u root -p -h IP\nmysql -u root -p -h IP --skip-ssl\n```","x":-680,"y":380,"width":600,"height":612},
+		{"id":"c5fe8f767998bb51","type":"text","text":"`hydra -C wordlist mysql://IP `","x":-700,"y":220,"width":260,"height":60},
+		{"id":"5f207006d45d2fec","x":-969,"y":39,"width":250,"height":60,"type":"text","text":"Dictionary Attack\n`jab username hoga tabhi`"},
+		{"id":"902b1f2a87f93a70","x":-980,"y":-90,"width":354,"height":52,"type":"text","text":"MYSQL se user password hi nikal sakate h"},
+		{"id":"149947b2133a1a49","x":315,"y":208,"width":545,"height":125,"type":"text","text":"sqlcmd -S <server_name_or_IP> -U `<username>` -P `<password>`\n\nsqlcmd -S <server_name_or_IP> -U `<username>`\n\nsearch on google"}
+	],
+	"edges":[
+		{"id":"fc347fd3001a4540","fromNode":"c471fdf3a323487a","fromSide":"bottom","toNode":"5aa35d2673475364","toSide":"top"},
+		{"id":"db2e43feab6ee778","fromNode":"5aa35d2673475364","fromSide":"right","toNode":"453a76e96e8baf73","toSide":"left"},
+		{"id":"92fa3497729c6a5c","fromNode":"5aa35d2673475364","fromSide":"right","toNode":"b977b32f317777d0","toSide":"left"},
+		{"id":"d7267e4c98c4e163","fromNode":"19e6aa37ddf1e4f0","fromSide":"bottom","toNode":"453a76e96e8baf73","toSide":"top"},
+		{"id":"1e95838456b996df","fromNode":"12c4adcdd71359c6","fromSide":"bottom","toNode":"b977b32f317777d0","toSide":"top"},
+		{"id":"6255f5cdc8eb7865","fromNode":"453a76e96e8baf73","fromSide":"right","toNode":"1b451a3f42e405a5","toSide":"left"},
+		{"id":"ac79d3e118d1f790","fromNode":"5aa35d2673475364","fromSide":"bottom","toNode":"f9724bedef529c95","toSide":"top"},
+		{"id":"dfbb88a05d962292","fromNode":"5aa35d2673475364","fromSide":"left","toNode":"c5fe8f767998bb51","toSide":"top"},
+		{"id":"4e109d880fde32fe","fromNode":"5aa35d2673475364","fromSide":"left","toNode":"5f207006d45d2fec","toSide":"right"},
+		{"id":"7b87b90c4c6a08cc","fromNode":"5aa35d2673475364","fromSide":"left","toNode":"902b1f2a87f93a70","toSide":"right"},
+		{"id":"c1cd7e3e35f24665","fromNode":"b977b32f317777d0","fromSide":"right","toNode":"149947b2133a1a49","toSide":"left"}
+	]
+}

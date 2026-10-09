@@ -1,0 +1,18 @@
+{
+	"nodes":[
+		{"id":"30537ee738fc449a","x":-760,"y":49,"width":86,"height":60,"type":"text","text":"#### Telnet"},
+		{"id":"7b933cd4cf3254bb","x":-460,"y":-30,"width":610,"height":218,"type":"text","text":"Telnet `Telecommunication Network` ek remote login protocol hai jiska use kisi dusre computer/server ko command line se access karne ke liye hota hai.\n\nSimple language:\n```\nTelnet se tum door baithe computer me login karke commands chala sakte ho, bilkul SSH ki tarah, lekin Telnet secure nahi hota.\n```"},
+		{"id":"b1fe36b2bdfc28ff","x":-460,"y":-260,"width":610,"height":169,"type":"text","text":"| Kaam                    | Explanation                               |\n| ----------------------- | ----------------------------------------- |\n| Remote Login            | Dusre machine me login karna              |\n| Command Execute         | Remote system par commands chalana        |\n| Service Testing         | Kisi port/service ko manually check karna |\n| Network Troubleshooting | Connection test karna                     |\n"},
+		{"id":"73f0c492e927fb05","x":280,"y":-260,"width":553,"height":398,"type":"text","text":"#### Telnet me kya hota hai?\n#### 1. Telnet Client\nJo connection banata hai.\n```\ntelnet 192.168.1.10\n```\n\n#### 2. Telnet Server\nJo connection accept karta hai.\nLinux me service:\n```\ntelnetd\n```"},
+		{"id":"4f84195d6bffabae","x":980,"y":-260,"width":355,"height":398,"type":"text","text":"```\n1. Client TCP connection banata hai\n\nClient\n   |\n   | TCP 23\n   |\n   v\n\nTelnet Server\n\n\n2. Username/password mangta hai\n3. Login successful hone ke baad\n4. Remote shell milti hai\n```"},
+		{"id":"b316295232cb5efe","x":980,"y":-520,"width":450,"height":228,"type":"text","text":"| SSH                      | Telnet                      |\n| ------------------------ | --------------------------- |\n| Secure                   | Insecure                    |\n| Encryption hoti hai      | Data plain text me jata hai |\n| Port 22                  | Port 23                     |\n| Modern protocol          | Old protocol                |\n| SSH keys support         | Keys nahi                   |\n| Server management me use | Mostly replace ho chuka     |\n"},
+		{"id":"065001d827368cbe","x":980,"y":160,"width":355,"height":135,"type":"text","text":"###### Default Username/Password\nadmin/admin\nroot/root\nuser/user"}
+	],
+	"edges":[
+		{"id":"2e1938d94897a6f1","fromNode":"30537ee738fc449a","fromSide":"right","toNode":"7b933cd4cf3254bb","toSide":"left"},
+		{"id":"4a93d34c88bb00f9","fromNode":"7b933cd4cf3254bb","fromSide":"top","toNode":"b1fe36b2bdfc28ff","toSide":"bottom"},
+		{"id":"7578dc3b0c694aa6","fromNode":"b1fe36b2bdfc28ff","fromSide":"right","toNode":"73f0c492e927fb05","toSide":"left"},
+		{"id":"3194f0f87f5d92e7","fromNode":"73f0c492e927fb05","fromSide":"right","toNode":"4f84195d6bffabae","toSide":"left"},
+		{"id":"8aa5637e26261ddb","fromNode":"73f0c492e927fb05","fromSide":"right","toNode":"065001d827368cbe","toSide":"left"}
+	]
+}

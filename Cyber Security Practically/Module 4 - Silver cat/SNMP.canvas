@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"90a766c0ec939822","x":-460,"y":-141,"width":284,"height":60,"type":"text","text":"# SNMP -> 161 TCP UDP"},
+		{"id":"2c2c4f1cfd481043","x":-479,"y":-260,"width":323,"height":60,"type":"text","text":"Simple network management protocol"}
+	],
+	"edges":[
+		{"id":"34a5fb7fbe50a9c9","fromNode":"90a766c0ec939822","fromSide":"top","toNode":"2c2c4f1cfd481043","toSide":"bottom"}
+	]
+}

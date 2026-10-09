@@ -1,0 +1,261 @@
+{
+  "main": {
+    "id": "f1ccc8d7db9c01a2",
+    "type": "split",
+    "children": [
+      {
+        "id": "81aca3f954e9b063",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7ec0dfef5ca3b273",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Cyber Security Practically/Tools/Website Scanning/Dirb.canvas",
+                "viewState": {
+                  "x": 880.79104206168,
+                  "y": 745.3850410107353,
+                  "zoom": -0.556515235642391
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Dirb"
+            }
+          },
+          {
+            "id": "867351609fea8e4e",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "THM/5. Beach Bar.canvas",
+                "viewState": {
+                  "x": -40,
+                  "y": -64,
+                  "zoom": 0
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "5. Beach Bar"
+            }
+          },
+          {
+            "id": "1b3afd3e6758d2d4",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Cyber Security Practically/Tools/Hydra.canvas",
+                "viewState": {
+                  "x": 833.5468055009835,
+                  "y": 4325.429805274008,
+                  "zoom": 0
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Hydra"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "095e5d0ca440694f",
+    "type": "split",
+    "children": [
+      {
+        "id": "541acca166ceb91e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5fa1161ce5782ea7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "0c50dcf97121ff52",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "1224b0c10b2d8e1e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 394.5
+  },
+  "right": {
+    "id": "dfa816578401aa7b",
+    "type": "split",
+    "children": [
+      {
+        "id": "a091a5bc913d35e9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a8716b037fe0c018",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Cyber Security/Module 3/3.  Host Discovery.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 3.  Host Discovery"
+            }
+          },
+          {
+            "id": "3794cf6af3e4db73",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Cyber Security/Tools/2. FootPrinting_and_reconnaisance/1. Active/1. Sublist3r.canvas",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 1. Sublist3r"
+            }
+          },
+          {
+            "id": "137fe04498141168",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "eb73733ec1cf61ab",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "e2a5e8f5325d4a94",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Cyber Security/Tools/2. FootPrinting_and_reconnaisance/1. Active/1. Sublist3r.canvas",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 1. Sublist3r"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "workspaces:Manage workspace layouts": false
+    }
+  },
+  "active": "867351609fea8e4e",
+  "lastOpenFiles": [
+    "THM/screenshots/beach_port_scan.png",
+    "THM/screenshots/beach_ports1.png",
+    "THM/5. Beach Bar.canvas",
+    "THM/screenshots/beach_ports.png",
+    "Cyber Security Practically/Tools/Tools.canvas",
+    "Cyber Security Practically/Tools/Password Cracking/Hashcat.canvas",
+    "Cyber Security Practically/Tools/Hydra.canvas",
+    "Cyber Security Practically/Tools/CeWL.canvas",
+    "Cyber Security Practically/Tools/Website Scanning/Dirb.canvas",
+    "THM/4. Room IconBeach Bar.canvas",
+    "THM/3. Overheard at Breakfast.canvas",
+    "THM/screenshots/results.png",
+    "THM/screenshots/Screenshot_2026-08-03_23_05_51.png",
+    "THM/screenshots/gobuster_result.png",
+    "THM/screenshots/osint_details.png",
+    "THM/screenshots/osint_webpage.png",
+    "THM/screenshots/email_osint.png",
+    "THM/screenshots/conversation.png",
+    "HTB/SpookyPass/SpookyPass.canvas",
+    "HTB/SpookyPass",
+    "THM/2. Enumeration & Brute Force.canvas",
+    "HTB/screenshots",
+    "HTB",
+    "THM/screenshots",
+    "Cyber Security Practically/Module 4 - Silver cat",
+    "Cyber Security Practically/Tools/Website Scanning",
+    "Cyber Security Practically/Tools/screenshots",
+    "Cyber Security Practically/Module 5.zip",
+    "Cyber Security Practically/Tools/Password Cracking",
+    "Cyber Security Practically/Tools",
+    "Cyber Security Practically/Module 3/6. Various technique for discover IDS and Firewall/Untitled.md"
+  ]
+}

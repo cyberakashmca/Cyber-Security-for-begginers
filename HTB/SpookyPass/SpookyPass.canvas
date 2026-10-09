@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"id":"8ff8f9acafa282f7","type":"text","text":"SpookyPass","x":-308,"y":-160,"width":250,"height":60},
+		{"id":"783a3721bd2fd109","type":"text","text":"Downlaod the zip + password","x":126,"y":-161,"width":254,"height":60},
+		{"id":"4c288561a92f4324","type":"file","file":"HTB/SpookyPass/extract.png","x":680,"y":-161,"width":400,"height":70},
+		{"id":"6d35d44405f28b7e","type":"text","text":"We have to get executable file `pass` to take password for execute","x":680,"y":-360,"width":400,"height":80},
+		{"id":"713b93c29a1a7c98","type":"text","text":"Checking what was contain this file with the help of `strings` cmd","x":680,"y":40,"width":400,"height":60},
+		{"id":"53eeb91c59f40555","x":1240,"y":-166,"width":393,"height":472,"type":"file","file":"HTB/SpookyPass/checkingInsideFile.png"},
+		{"id":"e2a93d20d4b05bce","x":1720,"y":40,"width":310,"height":60,"type":"text","text":"s3cr3t_p455_f0r_gh05t5_4nd_gh0ul5"},
+		{"id":"878edc820f69c79b","x":1750,"y":-80,"width":250,"height":60,"type":"text","text":"Get this password of this shell inside this image"},
+		{"id":"59d39378bd6eaf21","x":2240,"y":32,"width":400,"height":68,"type":"file","file":"HTB/SpookyPass/answer.png"}
+	],
+	"edges":[
+		{"id":"908708aeeafeaeb1","fromNode":"8ff8f9acafa282f7","fromSide":"right","toNode":"783a3721bd2fd109","toSide":"left"},
+		{"id":"0ac0b81a90be9323","fromNode":"783a3721bd2fd109","fromSide":"right","toNode":"4c288561a92f4324","toSide":"left","label":"after extract"},
+		{"id":"ef404f2ab105e3ab","fromNode":"4c288561a92f4324","fromSide":"top","toNode":"6d35d44405f28b7e","toSide":"bottom","label":"1"},
+		{"id":"24c10291aaf20523","fromNode":"4c288561a92f4324","fromSide":"bottom","toNode":"713b93c29a1a7c98","toSide":"top","label":"2"},
+		{"id":"3959e7da325e314f","fromNode":"713b93c29a1a7c98","fromSide":"right","toNode":"53eeb91c59f40555","toSide":"left"},
+		{"id":"08d62240bebbc297","fromNode":"53eeb91c59f40555","fromSide":"right","toNode":"e2a93d20d4b05bce","toSide":"left"},
+		{"id":"f18cd8fd8bab201b","fromNode":"e2a93d20d4b05bce","fromSide":"top","toNode":"878edc820f69c79b","toSide":"bottom"},
+		{"id":"441871e03bb7592a","fromNode":"e2a93d20d4b05bce","fromSide":"right","toNode":"59d39378bd6eaf21","toSide":"left","label":"result"}
+	]
+}

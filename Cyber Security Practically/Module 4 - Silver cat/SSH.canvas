@@ -1,0 +1,32 @@
+{
+	"nodes":[
+		{"id":"8420fcac70f6896d","type":"group","x":-185,"y":156,"width":655,"height":100,"label":"common 2 authentication method"},
+		{"id":"0b07dbfd2d19fac9","type":"text","text":"# SSH -> PORT 22","x":-496,"y":-119,"width":250,"height":60},
+		{"id":"f0283f71f11c9de2","type":"text","text":"> search on google ssh authentication method","x":-79,"y":-122,"width":459,"height":63},
+		{"id":"4274dd7345b81a93","type":"text","text":"Password","x":-165,"y":176,"width":250,"height":60},
+		{"id":"02e50da50160edc4","type":"text","text":"Public","x":200,"y":176,"width":250,"height":60},
+		{"id":"e9e46e586b041c0f","type":"text","text":"Dictionary Attack","x":-622,"y":60,"width":250,"height":60},
+		{"id":"29cc32b8e48315ff","x":-634,"y":-376,"width":250,"height":60,"type":"text","text":"SSH V1"},
+		{"id":"9c747bedde84fa31","x":-329,"y":-376,"width":250,"height":60,"type":"text","text":"SSH V2"},
+		{"id":"6d018acb75ee029f","x":-542,"y":-520,"width":66,"height":60,"type":"text","text":"`MITM`"},
+		{"id":"924ab374e2c05ed3","x":-957,"y":-123,"width":250,"height":60,"type":"text","text":"FILE TRANSFER"},
+		{"id":"07d13acb96d776d9","x":-980,"y":-280,"width":297,"height":60,"type":"text","text":"SFTP (secure file transfer protocol)"},
+		{"id":"0b57ec7bcd97e9ff","x":-622,"y":215,"width":250,"height":60,"type":"text","text":"found : abc123"},
+		{"id":"d480331a08a7871b","x":-682,"y":377,"width":373,"height":63,"color":"1","type":"text","text":"har service par check karunga vo chahe koi bhi service ho"},
+		{"id":"817df450b33852f0","x":-1400,"y":-280,"width":270,"height":50,"type":"text","text":"scp use karo file transfer ke liye"}
+	],
+	"edges":[
+		{"id":"c26e963703efdf9b","fromNode":"0b07dbfd2d19fac9","fromSide":"right","toNode":"f0283f71f11c9de2","toSide":"left"},
+		{"id":"462b6d20b5e0e574","fromNode":"f0283f71f11c9de2","fromSide":"bottom","toNode":"4274dd7345b81a93","toSide":"top"},
+		{"id":"17fb5f6473b62c51","fromNode":"f0283f71f11c9de2","fromSide":"bottom","toNode":"02e50da50160edc4","toSide":"top"},
+		{"id":"82342d24bd0c3907","fromNode":"4274dd7345b81a93","fromSide":"left","toNode":"e9e46e586b041c0f","toSide":"right"},
+		{"id":"1e1e4e7835fe24a5","fromNode":"0b07dbfd2d19fac9","fromSide":"top","toNode":"29cc32b8e48315ff","toSide":"bottom"},
+		{"id":"f50d11cd95aa5037","fromNode":"0b07dbfd2d19fac9","fromSide":"top","toNode":"9c747bedde84fa31","toSide":"bottom"},
+		{"id":"06ca2f4c8b57a5fa","fromNode":"29cc32b8e48315ff","fromSide":"top","toNode":"6d018acb75ee029f","toSide":"bottom"},
+		{"id":"ca3df13373d87019","fromNode":"0b07dbfd2d19fac9","fromSide":"left","toNode":"924ab374e2c05ed3","toSide":"right"},
+		{"id":"40bcc91040d148bb","fromNode":"07d13acb96d776d9","fromSide":"bottom","toNode":"924ab374e2c05ed3","toSide":"top"},
+		{"id":"f734460621543fe2","fromNode":"e9e46e586b041c0f","fromSide":"bottom","toNode":"0b57ec7bcd97e9ff","toSide":"top"},
+		{"id":"f42bc6d2adabe1ff","fromNode":"0b57ec7bcd97e9ff","fromSide":"bottom","toNode":"d480331a08a7871b","toSide":"top"},
+		{"id":"675bd6d130976318","fromNode":"07d13acb96d776d9","fromSide":"left","toNode":"817df450b33852f0","toSide":"right"}
+	]
+}

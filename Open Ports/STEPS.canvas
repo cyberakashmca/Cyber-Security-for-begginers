@@ -1,0 +1,6 @@
+{
+	"nodes":[
+		{"id":"9481f1a330428844","type":"text","text":"STEP 1 : `nmap -p- -sV $IP`\nSTEP 2 : OS DETECTION `\t\t nmap -O -p- -sV $IP`\nSTEP 3 : Open metaspoloits : `msfconsole`\nSTEP 4 : `search version  in metaspoloit ` of any perticular version of open ports\nSTEP 5 : if found then `use it`\nSTEP 6 : after use and send the cmd `show options` and fill required fields\nSTEP 7 : and exploit\n\nSearch any script : `cd /usr/share/nmap/scripts/ | grep ftp`\nset script : `nmap -p 21 --script=ftp-anon.nse 192.168.133.178`\n\n","x":-468,"y":-281,"width":708,"height":266}
+	],
+	"edges":[]
+}

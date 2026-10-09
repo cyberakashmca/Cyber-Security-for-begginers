@@ -1,0 +1,33 @@
+{
+	"nodes":[
+		{"id":"7f7b5b472a703dca","type":"text","text":"# Nikto","x":-780,"y":-100,"width":92,"height":60},
+		{"id":"3585b4b6078cf15a","type":"text","text":"Nikto is a powerful open-source web server `vulnerability scanner` written in `Perl`. It is widely used by penetration testers, security researchers and system administrators to identify potential security issues in web servers","x":-580,"y":-138,"width":449,"height":137},
+		{"id":"00e25a369b59d8a9","type":"text","text":"- Misconfigurations\n- Outdated software versions\n- Dangerous files and scripts\n- Known vulnerabilities","x":-580,"y":40,"width":449,"height":140,"color":"1"},
+		{"id":"73f89630d03f7496","type":"text","text":"- ***Vulnerability Scanning:*** Detects thousands of known vulnerabilities. Checks insecure files, scripts and configurations.\n- ***Server Fingerprinting:*** Identifies web server type and version. Uses techniques like favicon hashing.\n- ***Outdated Software Detection:*** Scans for outdated versions across 1200+ servers. Identifies issues in 200+ specific server versions.\n- ***SSL Support:*** Fully supports HTTPS scanning. Detects SSL-related issues.\n- ***Subdomain Discovery:*** Helps identify additional attack surfaces.\n- ***Information Gathering:*** Lists installed software and technologies. Provides informational findings for better hardening.\n- ***Multiple Output Formats:*** Save results in XML, CSV, HTML, TXT.\n- ***Authentication Testing:*** Supports username guessing. Can perform dictionary-based checks.\n- ***Integration Support:*** Accepts ***Nmap*** scan results as input. Works with proxies.","x":220,"y":-120,"width":1080,"height":280},
+		{"id":"0c128637dc256fe0","type":"text","text":"Syntax","x":-780,"y":220,"width":92,"height":60},
+		{"id":"b537020d8d99eeec","x":-480,"y":274,"width":560,"height":222,"type":"text","text":"```\nnikto -h http://example.com\nnikto -h https://example.com\nnikto -h https://example.com:8443\nnikto -h https://example.com/app/\nnikto -h example.com -p 8080\nnikto -h example.com -p 443 -ssl\nnikto -h https://example.com -output nikto-example.txt\n```"},
+		{"id":"b63d4277eef0555e","x":520,"y":360,"width":340,"height":60,"type":"text","text":"```\nnikto -h example.com -p 443 -ssl\n```"},
+		{"id":"0bcc7770e34c78ff","x":1180,"y":360,"width":536,"height":56,"type":"text","text":"Scan the HTTPS web server running on example.com at port 443"},
+		{"id":"a4f4b4e36f2244ae","x":720,"y":208,"width":168,"height":64,"type":"text","text":"With ssl = HTTPS"},
+		{"id":"7c6db836228256ee","x":508,"y":212,"width":182,"height":60,"type":"text","text":"without ssl = HTTP"},
+		{"id":"097ba8718337bd48","x":-480,"y":540,"width":560,"height":101,"type":"text","text":"Nikto results depend heavily on the exact target you choose. A scan against `an IP address, a hostname, a HTTPS virtual host, or a specific application path` can all return different findings."},
+		{"id":"1523a3471a3f519b","x":-1646,"y":355,"width":432,"height":60,"type":"text","text":"nikto –host (web url host name) –(http port number )"},
+		{"id":"03be6aa51d39453a","type":"text","text":"nikto -h <<target>target> [options]","x":-1026,"y":360,"width":246,"height":50},
+		{"id":"6c87502589695ee9","x":-1630,"y":-40,"width":400,"height":350,"type":"file","file":"Cyber Security/Tools/2. FootPrinting_and_reconnaisance/1. Active/Screenshot_2026-07-26_12_50_05.png"}
+	],
+	"edges":[
+		{"id":"7135c82448443388","fromNode":"7f7b5b472a703dca","fromSide":"right","toNode":"3585b4b6078cf15a","toSide":"left"},
+		{"id":"5300cd3f236a8e61","fromNode":"3585b4b6078cf15a","fromSide":"bottom","toNode":"00e25a369b59d8a9","toSide":"top"},
+		{"id":"a210966bea0df872","fromNode":"00e25a369b59d8a9","fromSide":"right","toNode":"73f89630d03f7496","toSide":"left"},
+		{"id":"2a8513a4021eba16","fromNode":"3585b4b6078cf15a","fromSide":"right","toNode":"73f89630d03f7496","toSide":"left"},
+		{"id":"10ec09bae19377b9","fromNode":"7f7b5b472a703dca","fromSide":"bottom","toNode":"0c128637dc256fe0","toSide":"top"},
+		{"id":"f32dbaeb7db599fd","fromNode":"0c128637dc256fe0","fromSide":"bottom","toNode":"03be6aa51d39453a","toSide":"top","label":"Syntax-1"},
+		{"id":"b6e0f23349132a14","fromNode":"03be6aa51d39453a","fromSide":"right","toNode":"b537020d8d99eeec","toSide":"left"},
+		{"id":"81cdbf07c55a8b1a","fromNode":"b537020d8d99eeec","fromSide":"right","toNode":"b63d4277eef0555e","toSide":"left","label":"Confusion cmd"},
+		{"id":"aa5abdc71dff0242","fromNode":"b63d4277eef0555e","fromSide":"right","toNode":"0bcc7770e34c78ff","toSide":"left","label":"mtlb"},
+		{"id":"1b5b19fd42a0628e","fromNode":"b63d4277eef0555e","fromSide":"top","toNode":"7c6db836228256ee","toSide":"bottom"},
+		{"id":"815681dda0cbe3d3","fromNode":"b63d4277eef0555e","fromSide":"top","toNode":"a4f4b4e36f2244ae","toSide":"bottom"},
+		{"id":"1d7e92b49de48164","fromNode":"b537020d8d99eeec","fromSide":"bottom","toNode":"097ba8718337bd48","toSide":"top"},
+		{"id":"cfba4b3fd92ff7ef","fromNode":"03be6aa51d39453a","fromSide":"left","toNode":"1523a3471a3f519b","toSide":"right","label":"Syntax-2"}
+	]
+}

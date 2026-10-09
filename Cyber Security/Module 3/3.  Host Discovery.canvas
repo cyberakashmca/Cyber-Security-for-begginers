@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"31bd75dd19709e06","x":-567,"y":-100,"width":207,"height":60,"type":"text","text":"# Host Discovery"},
+		{"id":"900350fe282e97f2","x":-653,"y":-260,"width":380,"height":92,"type":"text","text":"###### Host discovery techniques can be adopted to discover the active/live hosts in the internet."},
+		{"id":"1b28bbc28ce26445","x":-159,"y":-103,"width":250,"height":60,"type":"text","text":"Arp Ping Scan : "}
+	],
+	"edges":[
+		{"id":"dc97533b4167ebe7","fromNode":"31bd75dd19709e06","fromSide":"top","toNode":"900350fe282e97f2","toSide":"bottom"},
+		{"id":"e11fbb820a4ab154","fromNode":"31bd75dd19709e06","fromSide":"right","toNode":"1b28bbc28ce26445","toSide":"left"}
+	]
+}

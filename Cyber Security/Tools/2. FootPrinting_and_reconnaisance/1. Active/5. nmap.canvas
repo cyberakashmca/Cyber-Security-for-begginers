@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"047f1154f8225bc8","x":-120,"y":-214,"width":635,"height":309,"type":"text","text":"Nmap (Network Mapper) is an `open-source` tool for `network discovery` and `security auditing`. It allows cybersecurity professionals to `scan hosts` and `services`, identify `active systems`, `open ports` and `potential vulnerabilities`, making it essential for network reconnaissance and risk assessment.\n\n- Maps network topology and `identifies active devices`\n- Detects `open`, `closed`, `filtered` and `unfiltered` ports\n- Supports `TCP`, `SYN`, `UDP` and `Ping scans`\n- Helps find `outdated or unpatched services` for vulnerability management\n- Provides `detailed output `with `port numbers`, services and response states"},
+		{"id":"24e82918a5a230e0","x":-420,"y":-149,"width":160,"height":180,"type":"text","text":"# Nmap"}
+	],
+	"edges":[
+		{"id":"28b8ade36b59f4d6","fromNode":"24e82918a5a230e0","fromSide":"right","toNode":"047f1154f8225bc8","toSide":"left"}
+	]
+}

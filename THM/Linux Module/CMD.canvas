@@ -1,0 +1,30 @@
+{
+	"nodes":[
+		{"id":"dd2d476b70a48b75","x":-442,"y":-174,"width":88,"height":60,"type":"text","text":"# CMD"},
+		{"id":"6a27e28b362c7034","x":-149,"y":-256,"width":469,"height":60,"type":"text","text":"du -> check how much space are taked by files of folder"},
+		{"id":"c27f218f75b11290","x":-148,"y":-144,"width":468,"height":132,"type":"text","text":"`grep` -> The grep filter searches a file for a particular pattern of characters, and displays all lines that contain that pattern. The pattern that is searched in the file is referred to as the regular expression."},
+		{"id":"96091f95ce16b2dc","x":416,"y":-110,"width":216,"height":60,"type":"text","text":"``grep \"PATTERN\" file.txt``"},
+		{"id":"38c4f5a255c586d5","x":860,"y":-46,"width":70,"height":60,"type":"text","text":"fgrep"},
+		{"id":"c2f6bd1c49b44b20","x":860,"y":-174,"width":74,"height":60,"type":"text","text":"egrep"},
+		{"id":"701907db47f3912c","x":1042,"y":-177,"width":228,"height":60,"type":"text","text":"egrep matches the regular expressions in a string"},
+		{"id":"2c13ab63986695ff","x":1041,"y":-46,"width":230,"height":60,"type":"text","text":"fgrep searches for a fixed string inside text"},
+		{"id":"c757a30d64f965b1","x":1420,"y":-134,"width":564,"height":109,"type":"text","text":"Now grep can do both their jobs by using -E and -F flag, respectively.\n`grep -E` functions same as `egrep` \n`grep -F` functions same as `fgrep`."},
+		{"id":"c9e0f90a12c648e3","x":-666,"y":-480,"width":540,"height":200,"type":"text","text":"| **Flag**      | **Short Description**                                |\n| ------------- | ---------------------------------------------------- |\n| `-a`          | Show files along with directories.                   |\n| `-h`          | Display sizes in human-readable format (KB, MB, GB). |\n| `-c`          | Show the total size at the end.                      |\n| `-d <number>` | Limit directory search depth (e.g., `-d 2`).         |\n| `--time`      | Show the last modified timestamp.                    |\n"},
+		{"id":"eb014a45f95580ad","x":-666,"y":-880,"width":540,"height":310,"type":"text","text":"| **Flag** | **Short Description**                                      |\n| -------- | ---------------------------------------------------------- |\n| `-R`     | Search recursively in all subdirectories.                  |\n| `-h`     | Hide filenames in the output.                              |\n| `-c`     | Show only the count of matching lines.                     |\n| `-i`     | Ignore uppercase/lowercase (case-insensitive).             |\n| `-l`     | Show only filenames containing the pattern.                |\n| `-n`     | Show matching lines with line numbers.                     |\n| `-v`     | Show lines that **do not** match the pattern.              |\n| `-E`     | Treat the pattern as an Extended Regular Expression (ERE). |\n| `-e`     | Search using multiple patterns.                            |\n"},
+		{"id":"3688eb3692abce88","x":-80,"y":-880,"width":914,"height":100,"type":"text","text":"| **Flag** | **Short Description**                                                                                      |     |\n| -------- | ---------------------------------------------------------------------------------------------------------- | --- |\n| `-e`     | Search using one or more patterns (can use multiple `-e` flags). Uses **BRE** (Basic Regular Expressions). |     |\n| `-E`     | Use **Extended Regular Expressions (ERE)** for advanced pattern matching                                   |     |\n"},
+		{"id":"1f43d9a859dd20cd","x":-82,"y":-739,"width":805,"height":169,"type":"text","text":"| **`-e`**                                    | **`-E`**                                       |                |\n| ------------------------------------------- | ---------------------------------------------- | -------------- |\n| Specify one or multiple search patterns.    | Enable Extended Regular Expressions (ERE).     |                |\n| Can be used multiple times (`-e p1 -e p2`). | Usually used once with a single regex pattern. |                |\n| Uses **BRE** (Basic Regular Expressions).   | Uses **ERE** (Extended Regular Expressions).   |                |\n| Example: `grep -e \"cat\" -e \"dog\" file.txt`  | Example: `grep -E \"cat                         | dog\" file.txt` |\n"},
+		{"id":"1ad0e3e2bd1048e1","x":-82,"y":-552,"width":410,"height":105,"type":"text","text":"Easy Trick to Remember:\n\n-e = Extra Patterns (multiple search patterns)\n-E = Extended Regex (advanced pattern matching)"}
+	],
+	"edges":[
+		{"id":"cced02f8b787bcb9","fromNode":"dd2d476b70a48b75","fromSide":"right","toNode":"6a27e28b362c7034","toSide":"left"},
+		{"id":"2c9592119fa284a4","fromNode":"dd2d476b70a48b75","fromSide":"right","toNode":"c27f218f75b11290","toSide":"left"},
+		{"id":"bd853356dcc02f52","fromNode":"c27f218f75b11290","fromSide":"right","toNode":"96091f95ce16b2dc","toSide":"left"},
+		{"id":"7aa5cac631f78b34","fromNode":"96091f95ce16b2dc","fromSide":"right","toNode":"c2f6bd1c49b44b20","toSide":"left"},
+		{"id":"2b0ee2c3defbb7a4","fromNode":"96091f95ce16b2dc","fromSide":"right","toNode":"38c4f5a255c586d5","toSide":"left"},
+		{"id":"280c5f886d5d9737","fromNode":"c2f6bd1c49b44b20","fromSide":"right","toNode":"701907db47f3912c","toSide":"left"},
+		{"id":"c82d3e77054493f7","fromNode":"38c4f5a255c586d5","fromSide":"right","toNode":"2c13ab63986695ff","toSide":"left"},
+		{"id":"ef1fb2fc0de42371","fromNode":"701907db47f3912c","fromSide":"right","toNode":"c757a30d64f965b1","toSide":"left"},
+		{"id":"8bfd07816d229c36","fromNode":"2c13ab63986695ff","fromSide":"right","toNode":"c757a30d64f965b1","toSide":"left"},
+		{"id":"856ef832eaf60cd8","fromNode":"dd2d476b70a48b75","fromSide":"top","toNode":"c9e0f90a12c648e3","toSide":"bottom"}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"nodes":[
+		{"id":"b7c614cb5d5858ae","type":"text","text":"the `whois` command is the fastest route. It queries the registry databases that record this information and returns a plain-text response you can scan in a terminal","x":-260,"y":-140,"width":380,"height":120},
+		{"id":"1a1d763c637ca45d","type":"text","text":"Result will be : registrar, name servers, registration and expiry dates, and contact info (where privacy rules allow)","x":-260,"y":-300,"width":380,"height":109},
+		{"id":"50cb5ce75df4872b","type":"text","text":"# Whois","x":-460,"y":-110,"width":108,"height":60},
+		{"id":"cac59d746784a91e","type":"text","text":"```\nwhois [OPTIONS] OBJECT\n```","x":-260,"y":100,"width":380,"height":80},
+		{"id":"39fe5e9a36a6768b","type":"text","text":"`OBJECT` is the domain, IP address, or AS number you want information about. With no options, `whois` picks the right registry automatically based on the type of query.","x":440,"y":76,"width":367,"height":128},
+		{"id":"a0860785b0239ed7","type":"text","text":"### Commands\nwhois --version\nwhois example.com\nwhois 93.184.216.34\nwhois AS15169\nwhois -h whois.arin.net 8.8.8.8\nwhois --no-recursion example.com\nwhois -H example.com\nwhois example.com | grep -E \"Registrar:|Expiry Date:\"\nwhois example.com | awk '/Name Server:/ {print $NF}'\nwhois never-existed-domain-xyzzy.com","x":-300,"y":540,"width":460,"height":320},
+		{"id":"7ccf04647f6e8abc","type":"text","text":"```\nsudo apt install whois\n```","x":-300,"y":320,"width":460,"height":80},
+		{"id":"1a15d4ee5f3f590b","type":"file","file":"Cyber Security/Tools/2. FootPrinting_and_reconnaisance/Images/Screenshot_2026-07-26_07_55_54.png","x":-840,"y":305,"width":348,"height":263},
+		{"id":"6f64414ddc3433e1","type":"file","file":"Cyber Security/Tools/2. FootPrinting_and_reconnaisance/Images/Screenshot_2026-07-26_07_56_05.png","x":-840,"y":585,"width":347,"height":231},
+		{"id":"4fe258d2091d6a19","type":"file","file":"Cyber Security/Tools/2. FootPrinting_and_reconnaisance/Images/Screenshot_2026-07-26_08_00_28.png","x":-840,"y":831,"width":348,"height":308},
+		{"id":"6179232fb43a282c","type":"text","text":"","x":258,"y":-404,"width":250,"height":60},
+		{"id":"01629837d560d33d","type":"text","text":"```\n-H         : Hide legal disclaimers from the output\n-h HOST    : connect to specific whois server\n-p PORT    : connect to specific port no on the server\n-I         : Find information with official chain referrals\n-l         : Find the network range\n-L         : Find all network ranges\n-m         : Find all one-level more specific objects\n-M         : Find all objects that are more specific than qry\n-c         : Find the smallest network range\n-x         : Return exact match result only\n-b         : Return a brief list of ip address and abuse contact information\n-B         : Show all objects results. including email address\n-G         : show what changes after database update\n-d 8.8.8.8 : Return DNS reverse delegation obj.\n-i person,mnt-by \"RIPE-NCC-HM-MNT\" : Perform a reverse search based on specific attr\n-K         : Return only primary identify key\n-r         : Do not auto find contact information for the record\n-R         : Show the local copy of the domain object first\n-a         : Search all of the mirror database of the qry\n-s RIPE    : Search a specific mirrored database for info\n-t person  : Request a basic template for a specific object type\n-v person  : Request a verbose template\n-q         : Qry the server for information on its version, or any other param\n```","x":-300,"y":880,"width":756,"height":620}
+	],
+	"edges":[
+		{"id":"900a69ab31bf1ffe","fromNode":"b7c614cb5d5858ae","fromSide":"top","toNode":"1a1d763c637ca45d","toSide":"bottom"},
+		{"id":"8bcd35c838df2cf0","fromNode":"50cb5ce75df4872b","fromSide":"right","toNode":"b7c614cb5d5858ae","toSide":"left"},
+		{"id":"6a16820017cef5fa","fromNode":"b7c614cb5d5858ae","fromSide":"bottom","toNode":"cac59d746784a91e","toSide":"top","label":"Syntax"},
+		{"id":"30cadffb752b228f","fromNode":"cac59d746784a91e","fromSide":"right","toNode":"39fe5e9a36a6768b","toSide":"left","label":"What is object"},
+		{"id":"9e818279b9596eae","fromNode":"cac59d746784a91e","fromSide":"bottom","toNode":"7ccf04647f6e8abc","toSide":"top","label":"Installation"},
+		{"id":"bf9d82d576b30ae8","fromNode":"7ccf04647f6e8abc","fromSide":"bottom","toNode":"a0860785b0239ed7","toSide":"top"},
+		{"id":"9b51915e250b3417","fromNode":"a0860785b0239ed7","fromSide":"left","toNode":"6f64414ddc3433e1","toSide":"right"},
+		{"id":"748b09cd2c6562e9","fromNode":"a0860785b0239ed7","fromSide":"left","toNode":"1a15d4ee5f3f590b","toSide":"right"},
+		{"id":"46df904ebb252b86","fromNode":"a0860785b0239ed7","fromSide":"left","toNode":"4fe258d2091d6a19","toSide":"right"},
+		{"id":"ae5f0a47f716fa4f","fromNode":"4fe258d2091d6a19","fromSide":"right","toNode":"01629837d560d33d","toSide":"left"}
+	]
+}

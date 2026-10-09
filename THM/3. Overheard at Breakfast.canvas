@@ -1,0 +1,32 @@
+{
+	"nodes":[
+		{"id":"7510de22851ae224","x":-435,"y":-80,"width":315,"height":51,"type":"text","text":"# Overheard at Breakfast"},
+		{"id":"7a341555baec6e18","x":-40,"y":-187,"width":400,"height":266,"type":"file","file":"THM/screenshots/conversation.png"},
+		{"id":"6cc35aa1fb077c96","x":480,"y":-100,"width":363,"height":91,"type":"text","text":"Free tool hai (Social Media) -> started with G\ngmail \t      -> lambobytelotushotel@gmail.com"},
+		{"id":"2e85b8a7459ecc81","x":462,"y":140,"width":400,"height":208,"type":"file","file":"THM/screenshots/email_osint.png"},
+		{"id":"e60a9e6eac9af066","x":1040,"y":140,"width":453,"height":208,"type":"file","file":"THM/screenshots/osint_webpage.png"},
+		{"id":"60aefb1de9229a12","x":1040,"y":420,"width":453,"height":252,"type":"file","file":"THM/screenshots/osint_details.png"},
+		{"id":"b7f8abdda8a76941","x":1712,"y":374,"width":250,"height":60,"type":"text","text":"Google"},
+		{"id":"a6aa651bec3f9a04","x":1714,"y":626,"width":248,"height":60,"type":"text","text":"Gobuster"},
+		{"id":"7c794c31946b28c4","x":1712,"y":516,"width":250,"height":60,"type":"text","text":"`both start with G`"},
+		{"id":"f9ca37194c880cf6","x":2080,"y":277,"width":400,"height":255,"type":"file","file":"THM/screenshots/gobuster_result.png"},
+		{"id":"4de6769477e82449","x":2721,"y":369,"width":446,"height":60,"type":"text","text":"`VEhNe1MzY3JlVF9QcjBmaWwzX0g0c19iMzNuX0lkZW50MWZpM2R9`"},
+		{"id":"d1bfb49ed18a91b5","x":2721,"y":607,"width":446,"height":60,"type":"text","text":"Go to CyberChep for extract this"},
+		{"id":"6b3fe3fa89279a7e","x":2482,"y":780,"width":924,"height":520,"type":"file","file":"THM/screenshots/results.png"}
+	],
+	"edges":[
+		{"id":"39b437d027ba4f7d","fromNode":"7510de22851ae224","fromSide":"right","toNode":"7a341555baec6e18","toSide":"left"},
+		{"id":"402dd4d54abb852c","fromNode":"7a341555baec6e18","fromSide":"right","toNode":"6cc35aa1fb077c96","toSide":"left"},
+		{"id":"c081c0535578bf07","fromNode":"6cc35aa1fb077c96","fromSide":"bottom","toNode":"2e85b8a7459ecc81","toSide":"top"},
+		{"id":"15e54ef25d4c4879","fromNode":"2e85b8a7459ecc81","fromSide":"right","toNode":"e60a9e6eac9af066","toSide":"left"},
+		{"id":"64fed536ae49b6ac","fromNode":"e60a9e6eac9af066","fromSide":"bottom","toNode":"60aefb1de9229a12","toSide":"top"},
+		{"id":"1fb19735d3d16a94","fromNode":"60aefb1de9229a12","fromSide":"right","toNode":"b7f8abdda8a76941","toSide":"left"},
+		{"id":"e7da526afa0ba080","fromNode":"60aefb1de9229a12","fromSide":"right","toNode":"a6aa651bec3f9a04","toSide":"left"},
+		{"id":"88f955771e6fe6e2","fromNode":"7c794c31946b28c4","fromSide":"top","toNode":"b7f8abdda8a76941","toSide":"bottom","fromEnd":"arrow"},
+		{"id":"cdd856cd6f33922f","fromNode":"7c794c31946b28c4","fromSide":"bottom","toNode":"a6aa651bec3f9a04","toSide":"top","fromEnd":"arrow"},
+		{"id":"3e1a493a9f4ee20d","fromNode":"b7f8abdda8a76941","fromSide":"right","toNode":"f9ca37194c880cf6","toSide":"left"},
+		{"id":"e4b1e7b18f2f588f","fromNode":"f9ca37194c880cf6","fromSide":"right","toNode":"4de6769477e82449","toSide":"left","label":"copy sha1"},
+		{"id":"52eeb230d64d386d","fromNode":"4de6769477e82449","fromSide":"bottom","toNode":"d1bfb49ed18a91b5","toSide":"top"},
+		{"id":"bee044955974b8b8","fromNode":"d1bfb49ed18a91b5","fromSide":"bottom","toNode":"6b3fe3fa89279a7e","toSide":"top"}
+	]
+}
